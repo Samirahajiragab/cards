@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  font-family: Georgia, serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -7,12 +9,16 @@ html {
 }
 
 .cards {
+  text-align: center;
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
+.cards div {
+  text-align: center;
+}
 
-.cards {
+.cards li {
    display: inline-block;
    margin: 0 .5em 1em;
    max-width: 20em;
@@ -38,17 +44,17 @@ ul {
  }
 
  .cards dl {
-   margin-bottom:
+   margin-bottom: 1rem;
  }
 
  .cards dt {
-   display: block;
+   display: inline-block;
    width: 6em;
    font-style: italic;
  }
   .cards dd {
     display: inline-block;
-    margin-bottom: 0;
+    margin: 0;
     min-width: 9em;
   }
    .cards a {
