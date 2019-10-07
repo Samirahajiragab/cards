@@ -30,7 +30,7 @@ html {
   text-align: left;
 }
 
- .cards img {
+.cards img {
   display: block;
   margin: 0 auto 1rem;
 }
@@ -39,29 +39,29 @@ ul {
   display: block;
 }
 
- .cards strong {
+.cards strong {
   display: block;
   margin-bottom: 1rem;
   font-size: 1.125rem;
 }
 
- .cards dl {
+.cards dl {
   margin-bottom: 1rem;
 }
 
- .cards dt {
+.cards dt {
   display: inline-block;
   width: 6em;
   font-style: italic;
 }
 
-  .cards dd {
+.cards dd {
   display: inline-block;
   margin: 0;
   min-width: 9em;
 }
 
-   .cards a {
+.cards a {
   display: inline-block;
   padding: .5em .75em;
   background-color:  #ccc;
@@ -70,7 +70,7 @@ ul {
   text-decoration: none;
 }
 
-   .cards a:hover {
+.cards a:hover {
   background-color: #333;
   color: #fff;
 }
