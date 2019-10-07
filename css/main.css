@@ -28,8 +28,9 @@ html {
  }
 
 ul {
-   display: block;
+  display: block;
 }
+
  .cards strong {
     display: block;
     margin-bottom: 1rem;
